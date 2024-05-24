@@ -1,0 +1,42 @@
+.ToastContainer {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: fixed;
+    top : 150px;
+    right: -300px;
+    transition: right .3s  ease;
+
+    .icon {
+        display: inline-flex;
+        height: 32px;
+        width: 32px;
+        flex-shrink: 0;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+}
+
+.active {
+    right : 4%;
+    transition: right .3s ease;
+}
+
+.toastContainerItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.closeIcon {
+    position: absolute;
+    right: 10px;
+    top: 30%;
+    background-color: unset;
+    border: none;
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+}
