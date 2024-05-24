@@ -4,7 +4,7 @@ import { useChainId } from 'wagmi';
 import { pairAddress } from '../../contracts/contractAddress';
 import { conversionRate, fixedNumber, getEndpoint } from '../../utils';
 import { pairReserver } from '../../utils/graphql-query';
-import styles from './Conversion.module.scss'
+import styles from './Conversion.module.scss';
 
 
 interface requestReSponse {

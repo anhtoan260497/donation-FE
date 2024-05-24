@@ -1,5 +1,6 @@
 export const contractAddress: {[key: number]: `0x${string}`} = {
-    97 : '0x34b2d4AbF8d845A879790a87bfcAA116914f2543'
+    97 : '0x34b2d4AbF8d845A879790a87bfcAA116914f2543',
+    11155111 : "0xa2829e3419B7AfF1F5Ba6300D4dBFE7b1D0c62cD"
 }
 
 export const pairAddress: {[key: number]: `0x${string}`} = {
