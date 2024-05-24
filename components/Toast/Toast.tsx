@@ -1,11 +1,11 @@
 
 "use client";
 
+import clsx from "clsx";
 import { Toast } from "flowbite-react";
-import styles from './Toast.module.scss';
 import { HiCheck, HiExclamation } from "react-icons/hi";
 import Loader from "../Loader/Loader";
-import clsx from "clsx";
+import styles from './Toast.module.scss';
 
 interface ToastType {
     type: 'success' | 'error' | 'loading'

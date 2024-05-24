@@ -3,13 +3,11 @@ import { useEffect, useState } from 'react';
 import { parseEther } from 'viem';
 import { useAccount, useBalance, useChainId, useWriteContract } from 'wagmi';
 import { donationABI } from '../../contracts/abi/DonationABI';
-import Loader from '../Loader/Loader';
-import styles from './Donation.module.scss';
 import { contractAddress } from '../../contracts/contractAddress';
-import { waitForTransactionReceipt } from 'viem/actions';
-import config from '../../config-wagmi';
-import { ToastComponent } from '../Toast/Toast';
 import Conversion from '../Conversion/Conversion';
+import Loader from '../Loader/Loader';
+import { ToastComponent } from '../Toast/Toast';
+import styles from './Donation.module.scss';
 
 function Donation() {
 
